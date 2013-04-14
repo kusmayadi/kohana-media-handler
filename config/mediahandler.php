@@ -2,6 +2,7 @@
 
 return array(
 
-	'upload_dir'	=> 'upload'
+	'upload_dir'	=> APPPATH.'upload',
+	'cache_engine'  => 'file'
 
 );
